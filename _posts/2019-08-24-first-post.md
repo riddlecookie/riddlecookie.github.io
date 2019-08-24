@@ -1,7 +1,7 @@
 ---
 layout: post
 title: First post, so what's it all about?
-image: /img/posts/2019-08-24-first-post/mr_freeman.jpg
+image: /img/posts/2019-08-24-first-post/mr_freeman_avatar.jpg
 ---
 
 ![mr_freeman](/img/posts/2019-08-24-first-post/mr_freeman.jpg)
