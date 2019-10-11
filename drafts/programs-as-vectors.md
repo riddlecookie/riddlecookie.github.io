@@ -1,54 +1,55 @@
 ---
 layout: post
-title: Can we think about programs as vectors? (Thinks, that fuck up my brain pt. 1 - mine)
+title: Can we think about programs as vectors? [Things, that fuck up my brain pt. 1 - Mine]
 image: /img/posts/2019-08-24-first-post/mr_freeman_avatar.jpg
 ---
 
-[The Vectorial Lambda-Calculus]
-
 ![some cool image]()
 
-I wanted to start this blog with something completely different, but screw this - topic of this post is much better :P So, fasten your seatbelts and let's begin.
+I wanted to start this blog with something completely different, but screw this - this is my blog and I can do whatever I want! :D So, fasten your seatbelts and let's begin.
 
-*Sidenote: I hope that I didn't make any mistake in my reasoning (because some other people came to the same results - see the references), but a [potwierdzenie/odrzucenie przez kogoś z odpowiednimi kwalifikacjami] would be perfect.*
+*Sidenote: Those of you with some background can skip to the [Functions as vectors](#functions_as_vectors) section.*
 
-# Abstract thinking about programming - Turing machine
+# Algorithm as a function
 
-There was once a genius man called [Alan Turing]() (I really recommend reading about him, at least at wiki). He came up with a lot of cool stuff, but today I'm gonna write about only on of these - the **[Turing machine]()**. It's a teorethical model, which can represent any algorithm (it actually [zainicjalizowało powstanie informatyki]).
+What is the purpose of an algorithm (like, in general)? It takes some input (eg. some number, image, filled out form, etc.) and produces desired output. Now, we can consider all possible inputs, for which a particular algorithm was designed to take as an input. For example, this can be a set of all natural numbers, or a set of dates sooner than 11-10-2019. Let's denote this input-set as $X$ and each element belonging to it as $x$ (so, eg. a mentioned set of all natural numbers is marked as $X$ and number 4 is marked as $x$). Finally, let's say that for any input our algorithm produces exactly one output.
 
-[Krótki opis maszyny Turinga]
+Now, we can think of the set of all possible outcomes of our algorithm in a simmilar fassion as we did in the case of inputs. Then, let's just denote the output-set for a given function by $Y$, and elements belonging to it by $y$.
+
+To wrap everything up, we also need some name for our algorithm. Let's call it $f$. Having all of the above, we can describe an action of our algorithm, as some transition between elements from the set $X$ to the $Y$ set. It can be written down as follows:
+
+$$ X \xrightarrow{f} Y, $$
+
+or in another way:
+
+$$ y = f(x), $$
+
+where:
+- $x$ belongs to $X$,
+- $y$ belongs to $Y$.
+
+And this looks exactly like a function!
+
+Summing up, you can think about any program/algorithm (Skype, reddit webpage, whatever you want) as a function. Well, this conclusion isn't yet anything really astounding...
+
+# Turing machines and Lambda calculus
+
+Now, so that it isn't too nice, let's introduce a little bit of history. There was once a genius man called [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing). (I really recommend reading his story, this can be really informative...). He came up with a lot of incredible ideas, but today I'm going to mention only one of those - the **[Turing machine](https://en.wikipedia.org/wiki/Turing_machine)**. It's a teorethical model, which can represent any algorithm. It actually initiated the creation of computer science. From Wikipedia we can learn, that:
+
+*A Turing machine is a mathematical model of computation that defines an abstract machine, which manipulates symbols on a strip of tape according to a table of rules. Despite the model's simplicity, given any computer algorithm, a Turing machine capable of simulating that algorithm's logic can be constructed.*
+
+Fantastic! Now, we have to mention the other main player in this field - the [Lambda calculus](https://en.wikipedia.org/wiki/Lambda_calculus). In this formalism any algorithm/program can be representad as a specific **function**. Moreover, it has been proved that these two mentioned models are equivalent ways of describing any (computable) algorithm's logic.
+
+I won't go into any more detail about these concepts (those of you, who are interested in learning more I highly encourage to go through at least the provided links), but this is another way of arriving at the same conclusions, as we did earlier.
+
+# <a name="functions_as_vectors"></a> Functions as vectors
 
 
-Without going into much more detail, let's just wrap up this paragraph into first step on our tour:
-
-**1) Each computer program can be represented by an abstract Turing machine**.
-
-# From Turing machine to lambda calculus
-
-Ok, so we have our great Turing machine. But an algorithm can also be represented by other mathematical models. One of these is called **lambda calculus**. It's completely equivalent to the machine from the first paragraph, but has one additional feature - it's a function. It actually makes a lot of sense, to think of computer programs or algorithms in terms of functions, because a function just "does something on the input and gives output". A computer program does exactly the same, so why not thing about this from some more abstract level.
-
-As before, let's summarize the above as:
-
-**2) Lambda calculus is equivalent to the Turing machine. Because of this, we can think of programs as functions.**
-
-# Thinking of functions as vectors
-
-[Link do tamtej fajnej strony z obrazkami i jakoś to sparafrazować]
-
-
-
-**3) Any function can be represented as a vector. As a result, we can think of programs as vectors!**
 
 # Ok, but why do I need this?
 
 - Kąt między programami.
 - Rzut jednego programu na drugi.
 - superpozycja programów.
-
-If you came to this point I'm already realy happy. But, it's not over yet. I'm going to push the level of [abstrakcyjność] (I don't know how to write this) even further, by [dodając / mixing in all of this] some **quantum physics**!
-
-You may have heard about the famous [Schrodinger <- poprawić o na umlaut]. It is a [eksperyment myslowy], which [tacles?] a huge paradox in quantum physics - namely the [quantum collapse (or collapse of wavefunction)].
-
-[Opis eksperymentu Schrodingera]
 
 # References
