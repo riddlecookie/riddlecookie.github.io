@@ -76,11 +76,11 @@ Honestly, in a day to day life probably nobody. But for me it's fucking awesome!
 
 - If two algorithms/programs can be seen as a vectors, it's theoretically possible to calculate an angle between them (don't aks me how, I just guess that it's possible). Can you imagine an angle between a YouTube and Facebook pages? (This is a slight exaggeration, but you know what I'm talking about.) Moreover, maybe it's possible to project one program onto the other? (I'm not sure what this would correspond to in a normal life, but theoretically it's possible.)
 
-- Have you heard about the [Schrödinger's cat](https://en.wikipedia.org/wiki/Schr%C3%B6dinger%27s_cat)? It is described shortly below<sup>https://en.wikipedia.org/wiki/Schr%C3%B6dinger%27s_cat</sup>:
+- Have you heard about the [Schrödinger's cat](https://en.wikipedia.org/wiki/Schr%C3%B6dinger%27s_cat)? It is described shortly below<sup>[2]</sup>:
 
 *"A cat, a flask of poison, and a radioactive source are placed in a sealed box. If an internal monitor (e.g. Geiger counter) detects radioactivity (i.e. a single atom decaying), the flask is shattered, releasing the poison, which kills the cat. The Copenhagen interpretation of quantum mechanics implies that after a while, the cat is simultaneously alive and dead. Yet, when one looks in the box, one sees the cat either alive or dead, not both alive and dead."*
 
-{% include image.html url="/img/posts/2019-10-12-algorithms-as-vectors/schrodingers_cat.svg" description="The artists representation of a Schrödinger's cat thought experiment. [iii]" %}
+{% include image.html url="/img/posts/2019-10-12-algorithms-as-vectors/schrodingers_cat.svg" description="The artist's representation of a Schrödinger's cat thought experiment. [iii]" %}
 
 So, until the box is closed, the cat is at the same time alive and dead. Put it the other way, a cat is in a **superpositon** of being alive and dead. The concept of superposition is a fascinating topic in itself, but I won't describe it in here. You just need to know, that **if we have two vectors written in some common basis, we can superpose them**. So, you can imagine a quantum Firefox browser, that untill you look at the screen shows at the same time BBC and The Guardian pages, but when you finally want to check what's going on around the world it collapses to only one of those (with some probability).
 
