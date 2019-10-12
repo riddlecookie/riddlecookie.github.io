@@ -48,34 +48,40 @@ Let's switch for a moment from functions to the concept of a **vector**. A vecto
 
 {% include image.html url="/img/posts/2019-10-12-algorithms-as-vectors/vector_1.gif" description="An example vector in two dimesnions." %}
 
-The above vector can be represented in some other fassion called a $spike diagram$. By plotting the value of the components versus the component index we get<sup>[1](http://eng.fsu.edu/~dommelen/quantum/style_a/funcvec.html)</sup>:
+The above vector can be represented in some other fassion called a $spike\ diagram$. By plotting the value of the components versus the component index we get<sup>[1](http://eng.fsu.edu/~dommelen/quantum/style_a/funcvec.html)</sup>:
 
-![vector_2](/img/posts/2019-10-12-algorithms-as-vectors/vector_2.gif)
-*The first vector presented using the $spike diagram$.*
+{% include image.html url="/img/posts/2019-10-12-algorithms-as-vectors/vector_2.gif" description="The first vector presented using the $spike\ diagram$." %}
 
 (Note, that the $i$ symbol in the above picture doesn't stand for an imaginary number $i$, but is just some index.)
 
-Now, we can move from two dimensions
+Now, we can move from two dimensions three and more<sup>[1](http://eng.fsu.edu/~dommelen/quantum/style_a/funcvec.html)</sup>:
 
-![vector_3](/img/posts/2019-10-12-algorithms-as-vectors/vector_3.gif)
+{% include image.html url="/img/posts/2019-10-12-algorithms-as-vectors/vector_3.gif" description="$Spika\ diagram$ of a vector in three dimensions (left) and some higher number of dimensions (right)." %}
 
-![vector_4](/img/posts/2019-10-12-algorithms-as-vectors/vector_4.gif)
+Let's do one step further. What happens, if we move to an infinite number of dimensions? We would ilustrate a vector belonging to such a space like this<sup>[1](http://eng.fsu.edu/~dommelen/quantum/style_a/funcvec.html)</sup>:
 
-![vector_5](/img/posts/2019-10-12-algorithms-as-vectors/vector_5.gif)
+{% include image.html url="/img/posts/2019-10-12-algorithms-as-vectors/vector_4.gif" description="A vector with infinitely many components." %}
 
+But hey, if we lead a curve through all upper vertices of our spikes, we get something that look's just like a plot of some function! (Actually, that's why it's denoted as $f(x)$ in the above picture.) So, if we get rid of the spikes themselve, we are left with only the plot of our function<sup>[1](http://eng.fsu.edu/~dommelen/quantum/style_a/funcvec.html)</sup>:
 
-# Yeah, yeah, yeah, but who really needs that?
+{% include image.html url="/img/posts/2019-10-12-algorithms-as-vectors/vector_5.gif" description="Thr plot of a function corresponding to a vector with infinitely many components." %}
+
+Summarizing: using the above logic, we can think of functions as vectors with infinitely many components! But be careful, because it doesn't always work the other way around.
+
+Finally, we've already shown, that an algorithm is nothing more than just a function. An additionally, a function can be seen as a vector. Thanks to that, we can easily come to the conclusion, that **algorithms themselve can be viewed as vectors**!
+
+# Yeah, yeah, yeah, but who really cares about that?
 
 - Kąt między programami.
 - Rzut jednego programu na drugi.
 - superpozycja programów.
 
-## References
+### References
 
-- [1] http://eng.fsu.edu/~dommelen/quantum/style_a/funcvec.html
+- [1] [http://eng.fsu.edu/~dommelen/quantum/style_a/funcvec.html]
 
-## Images
+### Images
 
-- [1] https://www.theatlantic.com/technology/archive/2015/09/not-even-the-people-who-write-algorithms-really-know-how-they-work/406099/
+- [1] [https://www.theatlantic.com/technology/archive/2015/09/not-even-the-people-who-write-algorithms-really-know-how-they-work/406099/]
 
-- [2] https://blog.algorithmia.com/algorithm-development-is-broken
+- [2] [https://blog.algorithmia.com/algorithm-development-is-broken]
