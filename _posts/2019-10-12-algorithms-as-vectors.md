@@ -12,7 +12,7 @@ I wanted to start this blog with something completely different, but screw this 
 
 # Algorithm as a function
 
-What is the purpose of an algorithm (like, in general)? It takes some input (eg. some number, image, filled out form, etc.) and produces desired output. Now, we can consider all possible inputs, for which a particular algorithm was designed to take as an input. For example, this can be a set of all natural numbers, or a set of dates sooner than 11-10-2019. Let's denote this input-set as $X$ and each element belonging to it as $x$ (so, eg. a mentioned set of all natural numbers is marked as $X$ and number 4 is marked as $x$). Finally, let's say that for any input our algorithm produces exactly one output.
+What is the purpose of an algorithm (like, in general)? It takes some input (eg. some number, image, filled out form, etc.) and produces desired output. Now, we can consider all possible inputs, for which a particular algorithm was designed to take as an input. For example, this can be a set of all natural numbers, or a set of dates sooner than 12-10-2019. Let's denote this input-set as $X$ and each element belonging to it as $x$ (so, eg. the already mentioned set of all natural numbers is marked as $X$ and the number 4 is marked as $x$). Finally, let's say that for any input our algorithm produces exactly one output.
 
 Now, we can think of the set of all possible outcomes of our algorithm in a simmilar fassion as we did in the case of inputs. Then, let's just denote the output-set for a given function by $Y$, and elements belonging to it by $y$.
 
@@ -28,7 +28,7 @@ where:
 - $x$ belongs to $X$,
 - $y$ belongs to $Y$.
 
-And this looks exactly like a function!
+And this looks exactly like a **function**!
 
 Summing up, you can think about any program/algorithm (Skype, reddit webpage, whatever you want) as a function. Well, this conclusion isn't yet anything really astounding...
 
@@ -42,14 +42,33 @@ Fantastic! Now, we have to mention the other main player in this field - the [La
 
 I won't go into any more detail about these concepts (those of you, who are interested in learning more I highly encourage to go through at least the provided links), but this is another way of arriving at the same conclusions, as we did earlier.
 
-# <a name="functions_as_vectors"></a> Functions as vectors
+# <a name="functions_as_vectors"></a> Functions as vectors[1](http://eng.fsu.edu/~dommelen/quantum/style_a/funcvec.html)
+
+Let's switch for a moment from functions to the concept of a **vector**. A vector $\bar{v}$ is usually ilustraded as an arrow in some given space/plane. The properties characterizing vector are: its anchor point, its length (magnitude) and the direction in which it is pointing. The classical picture of a vector is given below[1](http://eng.fsu.edu/~dommelen/quantum/style_a/funcvec.html):
+
+![vector_1](/img/posts/2019-10-12-algorithms-as-vectors/vector_1.gif)
+
+The above vector can be represented in some other fassion called a $spike diagram$. By plotting the value of the components versus the component index we get[1](http://eng.fsu.edu/~dommelen/quantum/style_a/funcvec.html):
+
+![vector_2](/img/posts/2019-10-12-algorithms-as-vectors/vector_2.gif)
+
+Note, that the $i$ symbol in the above picture doesn't stand for an imaginary number $i$, but is just some index.
+
+Ok, so ...
+
+![vector_3](/img/posts/2019-10-12-algorithms-as-vectors/vector_3.gif)
+
+![vector_4](/img/posts/2019-10-12-algorithms-as-vectors/vector_4.gif)
+
+![vector_5](/img/posts/2019-10-12-algorithms-as-vectors/vector_5.gif)
 
 
-
-# Ok, but why do I need this?
+# Yeah, yeah, yeah, but who really needs that?
 
 - Kąt między programami.
 - Rzut jednego programu na drugi.
 - superpozycja programów.
 
 # References
+
+- [1] http://eng.fsu.edu/~dommelen/quantum/style_a/funcvec.html
