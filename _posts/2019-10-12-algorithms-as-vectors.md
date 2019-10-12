@@ -46,9 +46,7 @@ I won't go into any more detail about these concepts (those of you, who are inte
 
 Let's switch for a moment from functions to the concept of a **vector**. A vector $\bar{v}$ is usually ilustraded as an arrow in some given space/plane. The properties characterizing vector are: its anchor point, its length (magnitude) and the direction in which it is pointing. The classical picture of a vector in two dimensions is given below<sup>[1](http://eng.fsu.edu/~dommelen/quantum/style_a/funcvec.html)</sup>:
 
-<p align="center">
 {% include image.html url="/img/posts/2019-10-12-algorithms-as-vectors/vector_1.gif" description="An example vector in two dimesnions." %}
-</p>
 
 The above vector can be represented in some other fassion called a $spike diagram$. By plotting the value of the components versus the component index we get<sup>[1](http://eng.fsu.edu/~dommelen/quantum/style_a/funcvec.html)</sup>:
 
