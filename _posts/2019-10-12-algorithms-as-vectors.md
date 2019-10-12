@@ -72,22 +72,22 @@ Finally, we've already shown, that an algorithm is nothing more than just a func
 
 # Yeah, yeah, yeah, but who really cares about that?
 
-Honestly, in a day to day life probably nobody. But for me it's fucking awesome! I think, that it's good to sometimes think about seemingly trivial cases in a more abstract way, or view something from a different angle. But if this doesn't convince you, let me wreck your brain a little bit more. Below are two conclusions, that came to my mind.
+Honestly, in a day to day life probably nobody. But for me it's fucking awesome! I think, that it's good to sometimes think about seemingly trivial things in a more abstract way, or view something from a different angle. But if this doesn't convince you, let me wreck your brain a little bit more. Below are two conclusions, that came to my mind.
 
-- If two algorithms/programs can be seen as a vectors, it's theoretically possible to calculate an angle between them (don't aks me how, I just guess that it's possible). Can you imagine an angle between a YouTube and Facebook pages? (This is a slight exaggeration, but you know what I'm talking about.) Moreover, maybe it's possible to project one program onto the other? (I'm not sure what this would correspond to in a normal life, but theoretically it's possible.)
+Firstly, if two algorithms/programs can be seen as a vectors, it's theoretically possible to calculate an angle between them (don't aks me how, I just guess that it's possible). Can you imagine an angle between a YouTube and Facebook pages? (This is a slight exaggeration, but you know what I'm talking about.) Moreover, maybe it's possible to project one program onto the other?
 
-- Have you heard about the [Schrödinger's cat](https://en.wikipedia.org/wiki/Schr%C3%B6dinger%27s_cat)? It is described shortly below<sup>[2]</sup>:
+Secondly, have you ever heard about the [Schrödinger's cat](https://en.wikipedia.org/wiki/Schr%C3%B6dinger%27s_cat)? It is described shortly below<sup>[2]</sup>:
 
 *"A cat, a flask of poison, and a radioactive source are placed in a sealed box. If an internal monitor (e.g. Geiger counter) detects radioactivity (i.e. a single atom decaying), the flask is shattered, releasing the poison, which kills the cat. The Copenhagen interpretation of quantum mechanics implies that after a while, the cat is simultaneously alive and dead. Yet, when one looks in the box, one sees the cat either alive or dead, not both alive and dead."*
 
 {% include image.html url="/img/posts/2019-10-12-algorithms-as-vectors/schrodingers_cat.svg" description="The artist's representation of a Schrödinger's cat thought experiment. [iii]" %}
 
-So, until the box is closed, the cat is at the same time alive and dead. Put it the other way, a cat is in a **superpositon** of being alive and dead. The concept of superposition is a fascinating topic in itself, but I won't describe it in here. You just need to know, that **if we have two vectors written in some common basis, we can superpose them**. So, you can imagine a quantum Firefox browser, that untill you look at the screen shows at the same time BBC and The Guardian pages, but when you finally want to check what's going on around the world it collapses to only one of those (with some probability).
+So, as long as the box is closed, the cat is at the same time alive and dead. Put it another way, a cat is in a **superpositon** of being alive and dead. The concept of superposition is a fascinating topic in itself, but I won't describe it in here. You just need to know, that **if we have two vectors written down in some common basis, we can superpose them**. So, you can imagine a quantum Firefox browser, which until you look at the screen shows at the same time the BBC and The Guardian pages, but when you finally want to check what's going on around the world, it collapses to only one of those pages (with some probability).
 
-There is a field of science on the intersection of computer science and quantum physics, which examines [quantum information](https://en.wikipedia.org/wiki/Quantum_information) and [quantum computation](https://en.wikipedia.org/wiki/Quantum_computing), where this could be actually aplicable! Moreover, when (or if) a reasonably big quantum computer will be finally built, and by big I mean one with a large number of [quibts](https://en.wikipedia.org/wiki/Qubit), this idea would not look so abstract anymore.
+There is a field of science on the intersection of computer science and quantum physics, which examines [quantum information](https://en.wikipedia.org/wiki/Quantum_information) and [quantum computation](https://en.wikipedia.org/wiki/Quantum_computing), where this could be actually aplicable! Moreover, when (or if) a reasonably big quantum computer will be finally built, and by big I mean one with a large number of [quibts](https://en.wikipedia.org/wiki/Qubit), this idea would not seem so abstract anymore.
 
 
-Wow, it came longer than expected, but I hope you enjoyed it. For those of you, who are still interested in the topic, can read a discussion under my post on reddit concering exactly the same things, as I described above:
+Wow, it came longer than I expected, but I hope you enjoyed it. For those of you, who are still interested in the topic, can read a discussion under my post on reddit concering exactly the same things, as I described above:
 
 <https://www.reddit.com/r/compsci/comments/cwyk3a/thinking_of_programs_as_vectors/>
 
