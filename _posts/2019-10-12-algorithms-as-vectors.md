@@ -80,7 +80,7 @@ Secondly, have you ever heard about the [Schrödinger's cat](https://en.wikipedi
 
 *"A cat, a flask of poison, and a radioactive source are placed in a sealed box. If an internal monitor (e.g. Geiger counter) detects radioactivity (i.e. a single atom decaying), the flask is shattered, releasing the poison, which kills the cat. The Copenhagen interpretation of quantum mechanics implies that after a while, the cat is simultaneously alive and dead. Yet, when one looks in the box, one sees the cat either alive or dead, not both alive and dead."*
 
-{% include image.html url="/img/posts/2019-10-12-algorithms-as-vectors/schrodingers_cat.svg" description="The artist's representation of a Schrödinger's cat thought experiment. [iii]" %}
+{% include image.html url="/img/posts/2019-10-12-algorithms-as-vectors/schrodingers_cat.svg" description="The artist's representation of a Schrödinger's cat thought experiment. [ii]" %}
 
 So, as long as the box is closed, the cat is at the same time alive and dead. Put it another way, a cat is in a **superpositon** of being alive and dead. The concept of superposition is a fascinating topic in itself, but I won't describe it in here. You just need to know, that **if we have two vectors written down in some common basis, we can superpose them**. So, you can imagine a quantum Firefox browser, which until you look at the screen shows at the same time the BBC and The Guardian pages, but when you finally want to check what's going on around the world, it collapses to only one of those pages (with some probability).
 
