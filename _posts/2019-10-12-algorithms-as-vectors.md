@@ -74,7 +74,7 @@ Finally, we've already shown, that an algorithm is nothing more than just a func
 
 Honestly, in a day to day life probably nobody. But for me it's fucking awesome! I think, that it's good to sometimes think about seemingly trivial things in a more abstract way, or view something from a different angle. But if this doesn't convince you, let me wreck your brain a little bit more. Below are two conclusions, that came to my mind.
 
-Firstly, if two algorithms/programs can be seen as a vectors, it's theoretically possible to calculate an angle between them (don't aks me how, I just guess that it's possible). Can you imagine an angle between a YouTube and Facebook pages? (This is a slight exaggeration, but you know what I'm talking about.) Moreover, maybe it's possible to project one program onto the other?
+Firstly, if two algorithms/programs can be seen as a vectors, it's theoretically possible to calculate an angle between them (don't aks me how, I just guess that it's possible). Can you imagine an angle between YouTube and Facebook pages? (This is a slight exaggeration, but you know what I'm talking about.) Moreover, maybe it's possible to project one program onto the other?
 
 Secondly, have you ever heard about the [Schrödinger's cat](https://en.wikipedia.org/wiki/Schr%C3%B6dinger%27s_cat)? It is described shortly below<sup>[2]</sup>:
 
