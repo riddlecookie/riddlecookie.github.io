@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Can we think about programs as vectors? <br> <sup>[Things, that fuck up my brain pt. 1 - Mine]</sup>
+title: Can we think about programs as vectors?
+subtitle: [Things, that fuck up my brain pt. 1 - Mine]
 image: /img/posts/2019-10-12-algorithms-as-vectors/avatar.jpg
 ---
 
