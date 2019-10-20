@@ -1,15 +1,17 @@
 ---
 layout: post
 title: Can we think about programs as vectors?
-subtitle: [Things that fuck up my brain pt. 1 - Mine]
+subtitle: [Mind twisters pt. 1]
 image: /img/posts/2019-10-12-algorithms-as-vectors/avatar.jpg
 ---
 
 ![header](/img/posts/2019-10-12-algorithms-as-vectors/header.jpg)
 
-I wanted to start this blog with something completely different, but screw this - this is my blog and I can do whatever I want! :D So, fasten your seatbelts and let's begin.
+You're sitting in subway responding to a message you got from a friend on the Messenger. Suddenly, a pop-up informs you, that someone liked a photo from your last vacation, that you posted on Facebook. With a smile on your face you open the reddit app to check the \"Popular\" page, but it's your station. You grab your things, get out from the car and go to work. There, you sit at your desk, turn on the computer, open Outlook and Chrome and a normal day at the office is just beginning.
 
-*Sidenote: Those of you with some background can skip to the [Functions as vectors](#functions_as_vectors) section.*
+In our day to day life, we often don't have time to sit for a moment and think about the surrounding world (or, we rather tell ourselves, that we don't have time for that), not to mention moving to higher levels of abstraction of looking at normal things. But today I'm going to take you on a journey. We will start very simple, by looking at the things, that all of us use every single day - programs. Apps, browsers, games, webpages... All of these are in general just programs. As the path in front of us unfolds, I will take you to higher and higher levels of abstraction. At the end, I will try to convince you for example, that we can imagine such a thing as an angle between the Facebook and reddit pages.
+
+So, without any further ado, let's just dive into the subject.
 
 # Algorithm as a function
 
