@@ -101,12 +101,12 @@ Thanks for reading!
 
 ### References
 
-- [1] <http://eng.fsu.edu/~dommelen/quantum/style_a/funcvec.html>
+- [1] [Functions as vectors](http://eng.fsu.edu/~dommelen/quantum/style_a/funcvec.html)
 
-- [2] <https://en.wikipedia.org/wiki/Schr%C3%B6dinger%27s_cat>
+- [2] [Schrödinger's cat](https://en.wikipedia.org/wiki/Schr%C3%B6dinger%27s_cat)
 
 ### Images
 
-- [i] <https://blog.algorithmia.com/algorithm-development-is-broken>
+- [i] [Header image](https://blog.algorithmia.com/algorithm-development-is-broken)
 
-- [ii] <https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Schrodingers_cat.svg/330px-Schrodingers_cat.svg.png>
+- [ii] [Schrödinger's cat image](https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Schrodingers_cat.svg/330px-Schrodingers_cat.svg.png)

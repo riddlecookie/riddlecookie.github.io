@@ -27,4 +27,4 @@ Thanks for reading!
 
 ### Images
 
-- [Babbling kid](https://www.discovermagazine.com/health/detecting-autism-risk-in-baby-babbles)
+- [Header image](https://www.discovermagazine.com/health/detecting-autism-risk-in-baby-babbles)
