@@ -7,4 +7,6 @@ Below are all posts from the main page sorted according to series, in which they
 
 ### Mind twisters
 
-[Can we think about programs as vectors?](https://riddlecookie.github.io/2019-10-12-algorithms-as-vectors/)
+[1. Can we think about programs as vectors?](https://riddlecookie.github.io/2019-10-12-algorithms-as-vectors/)
+
+[2. Why you should babble from time to time](https://riddlecookie.github.io/2020-01-12-why-you-should-babble/)
