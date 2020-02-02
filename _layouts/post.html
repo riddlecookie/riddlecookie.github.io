@@ -66,17 +66,21 @@ layout: base
       </ul>
 
       {% if page.comments %}
-      <div class="container">
-	<div class="row">
-	  <div class="id">COMMENTS</div>
-	  <div class="remarkbox-comments">
-	    {% include remarkbox.html %}
-	  </div>
-          <div class="staticman-comments">
-            {% include staticman-comments.html %}
-          </div>
-	</div>
-      </div>
+			<div class="container">
+    		<div class="row">
+      		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        		<div class="{{ include.type }}-heading">
+          		<h1>COMMENTS</h1>
+							<div class="remarkbox-comments">
+	    					{% include remarkbox.html %}
+							</div>
+							<div class="staticman-comments">
+								{% include staticman-comments.html %}
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
       {% endif %}
     </div>
   </div>
