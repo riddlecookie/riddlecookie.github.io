@@ -67,12 +67,15 @@ layout: base
 
       {% if page.comments %}
       <div class="container">
-	<div class="remarkbox-comments">
-	  {% include remarkbox.html %}
+	<div class="row">
+	  <div class="id">COMMENTS</div>
+	  <div class="remarkbox-comments">
+	    {% include remarkbox.html %}
+	  </div>
+          <div class="staticman-comments">
+            {% include staticman-comments.html %}
+          </div>
 	</div>
-        <div class="staticman-comments">
-          {% include staticman-comments.html %}
-        </div>
       </div>
       {% endif %}
     </div>
