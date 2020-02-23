@@ -38,7 +38,7 @@ Lately I started a fantastic book "Simply complexity: a clear guide to complexit
 
 And we are in some way similar to the bees. We are not capable of doing as much on our own, as in a group. But it's also hard to foresee the consequences of our actions, while moving to the higher level of abstraction (like to the perspective of the whole society). Just to show how hard it might be, let's look at the Mendeleev's periodic table:
 
-![](/img/posts/2020-02-23-good-person/mendeleev_table.png)
+![](/img/posts/2020-02-23-good-person/periodic_table.jpeg)
 
 Now comes the tricky part - how do you make a transition from this table, to a living organism? I mean, do you know the necessary arrangement of elements coming from this table to build at least a fully functional bacteria? I definitely don't...
 
@@ -62,4 +62,4 @@ OK, I felt so smart, now it's time to quit this bullshit. Thanks for reading!
 
 - [Derpy bee from avatar](https://www.tumblr.com/search/derpy%20bee)
 - [Background](https://www.sustainability-times.com/environmental-protection/scientists-in-finland-develop-a-promising-bee-vaccine/)
-- [Mendeleev's periodic table](https://wallpapersafari.com/w/MtHGm6/)
+- [Mendeleev's periodic table](https://levelup.gitconnected.com/how-i-made-the-periodic-table-with-css-grid-and-react-69f94d7fcec)
