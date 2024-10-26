@@ -112,6 +112,8 @@ tag_archive:
   type: liquid
   path: /tags/
 
+# comments
+repository: riddlecookie/riddlecookie.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 comments:
   provider: "utterances"
   utterances:
