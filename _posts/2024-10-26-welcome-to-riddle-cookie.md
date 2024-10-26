@@ -1,6 +1,10 @@
 ---
-permalink: /about/
-title: "About"
+title: "Welcome to the Riddle Cookie!"
+date: 2024-10-26T10:00:00-00:00
+categories:
+  - blog
+tags:
+  - update
 ---
 
 Hi! Welcome to the Riddle Cookie!
