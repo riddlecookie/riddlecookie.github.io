@@ -12,4 +12,5 @@ So I've created this blog as a place to spill my thoughts. Mostly, I’ll be wri
 Anyway, if you’ve landed on this page, welcome once again, and enjoy the ride! 😄
 
 Cheers and best wishes,
+
 Cookie Monster
